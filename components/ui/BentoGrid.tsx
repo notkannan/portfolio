@@ -1,5 +1,9 @@
 import { cn } from "@/utils/cn";
 import { BackgroundGradientAnimation } from "./GradientBg";
+import { FlipWords } from "./FlipWords";
+import { GlobeDemo } from "./GridGlobe";
+
+const words = ["ReactJS", "NextJS", "HTML", "CSS", "JavaScript","TypeScript", "Python", "C++", "AWS"];
 
 export const BentoGrid = ({
   className,
@@ -45,7 +49,7 @@ export const BentoGridItem = ({
   return (
     <div
       className={cn(
-        "row-span-1 relative rounded-3xl group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-none p-4 dark:bg-black dark:border-white/[0.2] bg-white border border-transparent justify-between flex flex-col space-y-4",
+        "row-span-1 relative overflow-hidden rounded-3xl group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-none p-4 dark:bg-black dark:border-white/[0.2] bg-white border border-transparent justify-between flex flex-col space-y-4",
         className
       )}
       style={{
@@ -81,10 +85,21 @@ export const BentoGridItem = ({
           </BackgroundGradientAnimation>
         )}
 
+        {id === 2 && <GlobeDemo />}
+
+        {id === 3 && (
+          <div>
+          <div className="mt-10 pt-3 text-left text-3xl mr-10">
+              I am proficient in<br />
+            <span className="font-bold text-3xl"><FlipWords words={words} duration={1500}/></span>
+          </div></div>
+
+        )}
+
         <div className={cn(
           titleClassName, 'group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col px-5 p-5 lg:p-10'
         )}>
-          <div className="font-sans font-extraligh text-[#c1c2d3] text-sm md:text-sx lg:text-base z-10">
+          <div className="font-sans font-extralight text-[#c1c2d3] text-sm md:text-sx lg:text-base z-10">
             {description}
           </div>
           <div className="font-sans font-bold text-lg lg:text-3xl max-w-96 z-10">
