@@ -28,7 +28,7 @@ export const navItems = [
     {
       id: 3,
       title: "",
-      description: "",
+      description: "My digital DNA includes",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
       titleClassName: "justify-center",
@@ -204,14 +204,17 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
+      link: "https://github.com/notkannan"
     },
     {
       id: 2,
       img: "/twit.svg",
+      link: "https://github.com/notkannan"
     },
     {
       id: 3,
       img: "/link.svg",
+      link: "https://linkedin.com/in/kannankarthikeyan4"
     },
   ];
 
