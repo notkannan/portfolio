@@ -215,3 +215,24 @@ export const navItems = [
       img: "/link.svg",
     },
   ];
+
+  export const leftLists = [
+    "React",
+    "Typescript",
+    "Next.js"
+  ]
+
+  export const rightLists = [
+    "Java",
+    "Spring Boot",
+    "AWS"
+  ]
+
+  export const flipWordsContent = [
+    'React', 
+    'NextJS',
+    'JavaScript', 
+    'Python', 
+    'C++', 
+    'AWS'
+  ]
