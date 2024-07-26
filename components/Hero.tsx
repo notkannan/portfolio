@@ -18,7 +18,8 @@ const Hero = () => {
         </div>
         <ShootingStars 
           maxSpeed={5}
-          
+          starColor='#EDD332'
+          trailColor='#EDD332'
           />
       
     <div className='flex justify-center relative my-20 z-10'>

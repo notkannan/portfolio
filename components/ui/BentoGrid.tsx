@@ -53,7 +53,7 @@ export const BentoGridItem = ({
   const [copied, setCopied] = useState(false);
 
   const handleCopy = () => {
-    navigator.clipboard.writeText('manivannan.k@northeastern.edu');
+    navigator.clipboard.writeText('karthikeyan.k@northeastern.edu');
     setCopied(true);
   }
 
@@ -75,7 +75,7 @@ export const BentoGridItem = ({
             {img && (
                 <img 
                     src={img}
-                    alt="Kaushik Manivannan"
+                    alt="Kannan Karthikeyan"
                     className={cn(imgClassName, "object-cover object-center")}
                 />
             )}
@@ -84,7 +84,7 @@ export const BentoGridItem = ({
             {spareImg && (
                 <img
                     src={spareImg}
-                    alt="Kaushik Manivannan"
+                    alt="Kannan Karthikeyan"
                     className={"object-cover object-center w-full h-full"}
                 />
             )}

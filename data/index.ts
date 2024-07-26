@@ -1,8 +1,9 @@
+
 export const navItems = [
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
     { name: "Contact", link: "#contact" },
-  ];
+];
   
   export const gridItems = [
     {
@@ -238,3 +239,32 @@ export const navItems = [
     'C++', 
     'AWS'
   ]
+
+  export const experiences = [
+    {
+      title: "Master of Science in Software Engineering Systems",
+      company_name: "Northeastern University",
+      icon: "app.svg",
+      iconBg: "#383E56",
+      date: "January 2024 - December 2025",
+      points: [
+        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Participating in code reviews and providing constructive feedback to other developers.",
+      ],
+    },
+    {
+      title: "Software Engineer",
+      company_name: "Tesla",
+      icon: "app.svg",
+      iconBg: "#E6DEDD",
+      date: "Jan 2021 - Feb 2022",
+      points: [
+        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Participating in code reviews and providing constructive feedback to other developers.",
+      ],
+    },
+  ];
