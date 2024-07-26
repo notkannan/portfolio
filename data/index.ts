@@ -9,17 +9,17 @@ export const navItems = [
   export const gridItems = [
     {
       id: 1,
-      title: "I prioritize client collaboration, fostering open communication ",
+      title: "The intersection of AI, ethics, and human-centered design is where I love to explore and create.",
       description: "",
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
       imgClassName: "w-full h-full",
       titleClassName: "justify-end",
-      img: "/b1.svg",
+      img: "ai.jpg",
       spareImg: "",
     },
     {
       id: 2,
-      title: "I'm very flexible with time zone communications",
+      title: "Currently in Boston, MA",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
@@ -39,8 +39,8 @@ export const navItems = [
     },
     {
       id: 4,
-      title: "Tech enthusiast with a passion for development.",
-      description: "",
+      title: "Masters at Northeastern University",
+      description: "Life Lately",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
       titleClassName: "justify-start",
@@ -50,8 +50,8 @@ export const navItems = [
   
     {
       id: 5,
-      title: "Developing visually captive websites for clients",
-      description: "Life Lately",
+      title: "Developing a product to ship to 1000 users",
+      description: "The Inside Scoop",
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
       titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -99,7 +99,7 @@ export const navItems = [
       id: 4,
       title: "K Double E Architects",
       des: "A visually captive website built for K Double E Architects, An architectural firm based in Chennai, India",
-      img: "/p4.svg",
+      img: "/kde.png",
       iconLists: ["/html.svg", "/css.svg", "/ts.svg", "/js.svg", "/mongo.svg", "exp.svg", "/re.svg"],
       link: "https://kdoublee.in",
     },
