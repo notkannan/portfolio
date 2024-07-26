@@ -24,18 +24,17 @@ const Hero = () => {
       
     <div className='flex justify-center relative my-20 z-10'>
       <div className='max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center'>
-        <h2 className='uppercase tracking-widest text-xs text-center text-blue-100 max-w-80'>Made using Next.js</h2>
 
         <TextGenerateEffect
           words="Hi, I'm Kannan Karthikeyan"
           className='text-center text-[40px] md:text-5xl lg:text-6xl' 
         />
 
-        <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>A Full Stack AI Software Engineer, consistently sharpening my craft</p>
-
-        <a href="#about">
+        <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>Innovating at the intersection of AI and Full Stack Development</p>
+        <h2 className='uppercase tracking-widest text-xs text-center text-blue-100 max-w-80'>Based in Boston, MA</h2>
+        <a href="#projects">
           <MagicButton 
-              title="Show my work" icon={undefined} position={''} />
+              title="View my projects" icon={undefined} position={''} />
         </a>
       </div>
     </div>

@@ -2,6 +2,7 @@
 export const navItems = [
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
+    { name: "Journey", link: "#journey" },
     { name: "Contact", link: "#contact" },
 ];
   
@@ -49,8 +50,8 @@ export const navItems = [
   
     {
       id: 5,
-      title: "Currently building a JS Animation library",
-      description: "The Inside Scoop",
+      title: "Developing visually captive websites for clients",
+      description: "Life Lately",
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
       titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -72,19 +73,19 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "3D Solar System Planets to Explore",
-      des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-      img: "/p1.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "https://github.com/adrianhajdin?tab=repositories",
+      title: "Youthopia - A Youth Welfare Platform",
+      des: "A MERN Stack web application & an inclusive online platform dedicated to empowering youth through diverse developmental opportunities, facilitated by enthusiastic volunteers.",
+      img: "/youthopia.png",
+      iconLists: ["/re.svg", "/html.svg", "/css.svg", "/js.svg", "/mongo.svg", "/exp.svg", "/ts.svg"],
+      link: "https://github.com/notkannan?tab=repositories",
     },
     {
       id: 2,
-      title: "Yoom - Video Conferencing App",
-      des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+      title: "Secure Stash - A File Encryption App",
+      des: "Secure Stash is a secure and versatile file encryption application that allows users to encrypt various types of files",
       img: "/p2.svg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/zoom-clone",
+      link: "https://github.com/notkannan?tab=repositories",
     },
     {
       id: 3,
@@ -92,7 +93,7 @@ export const navItems = [
       des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
       img: "/p3.svg",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/ai_saas_app",
+      link: "https://github.com/notkannan?tab=repositories",
     },
     {
       id: 4,
@@ -100,7 +101,7 @@ export const navItems = [
       des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
       img: "/p4.svg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "https://github.com/adrianhajdin/iphone",
+      link: "https://github.com/notkannan?tab=repositories",
     },
   ];
   
@@ -209,8 +210,8 @@ export const navItems = [
     },
     {
       id: 2,
-      img: "/twit.svg",
-      link: "https://github.com/notkannan"
+      img: "leetcode.svg",
+      link: "https://leetcode.com/u/notkannan/"
     },
     {
       id: 3,
@@ -244,27 +245,27 @@ export const navItems = [
     {
       title: "Master of Science in Software Engineering Systems",
       company_name: "Northeastern University",
-      icon: "app.svg",
-      iconBg: "#383E56",
+      icon: "northeastern.png",
+      iconBg: "#fff",
       date: "January 2024 - December 2025",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "GPA: 3.86",
+        "Relevant Coursework: Concepts of Object Oriented Design, Web Development and User Experience Engineering",
+        "Currently Working on: Network Structures and Cloud Computing , Database Management and Database Design"
       ],
     },
     {
       title: "Software Engineer",
-      company_name: "Tesla",
-      icon: "app.svg",
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      company_name: "Infosys Limited",
+      icon: "infosys.png",
+      iconBg: "#fff",
+      date: "November 2021 - April 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Experienced in developing business solutions using Microsoft's Dynamics 365 CE, Sales, Marketing, Field/Project Service.",
+        "Developed and deployed customized Dynamics 365 apps for clients from small-scale to multimillion dollar industries, resulting in a 20% increase in client satisfaction ratings",
+        "Implemented efficient data migration strategies for clients within Microsoft Dynamics 365, resulting in a successful transfer of over 10 million records without any data loss",
+        "Delivered valuable insights of Dynamics 365’s functionality, and configured applications to meet multiple client’s requirements using the Microsoft Dynamics CRM Customization Tool, Workflow Tool, and SDK",
+        "Adeptly mentored 5+ junior Systems Engineers, divulging them into Dynamics 365 functionality through continuous supervision and review sessions and as a result, they were certified as Microsoft Consultants"
       ],
     },
   ];

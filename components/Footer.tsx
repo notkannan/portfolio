@@ -8,15 +8,15 @@ import Link from 'next/link'
 const Footer = () => {
   return (
     <footer className='w-full pt-20 pb-10' id='contact'>
-        {/* <div className='w-full absolute left-0 -bottom-72 min-h-96'>
+        <div className='w-full absolute left-0 -bottom-72 min-h-96'>
             <img 
             src="/footer-grid.svg" 
             alt="Kannan Karthikeyan"
             className='w-full h-full opacity-30' />
-        </div> */}
+        </div>
         <div className="flex flex-col items-center">
-            <h1 className='heading lg:max-w-[45vw]'>Ready to take <span className='text-purple'>your</span> digital presence to the next level?</h1>
-            <p className='text-white-200 md:mt-10 my-5 text-center'>Reach out to me today and let&apos;s discuss how I can help you achieve your goals.</p>
+            <h1 className='heading lg:max-w-[50vw]'>Let&apos;s build something amazing<span className='text-purple'> together, </span>I&apos;m all ears</h1>
+            <p className='text-white-200 md:mt-10 my-5 text-center'>Feel free to reach out to me using the below links, See you there!</p>
             <a href='mailto:karthikeyan.k@northeastern.edu'>
                 <MagicButton 
                     title ="Let's get in touch"
@@ -25,7 +25,7 @@ const Footer = () => {
                     />
             </a>
         </div>
-        <div className='flex mt-16 md:flex-row flex-col justify-center items-center'>
+        <div className='flex mt-12 md:flex-row flex-col justify-center items-center'>
           <p className='md:text-base text-sm md:font-normal font-light'>Copyright © 2024 Kannan</p>
         </div>
 
@@ -36,6 +36,11 @@ const Footer = () => {
             </Link>
           ))}
         </div>
+        <div className='flex mt-6 md:flex-row flex-col justify-center items-center'>
+         <h2 className='uppercase tracking-widest text-xs text-center text-blue-100 max-w-80'>Made with Next.JS</h2>
+        </div>
+
+        
     </footer>
   )
 }

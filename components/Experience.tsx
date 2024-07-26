@@ -51,7 +51,7 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({ experience, position })
             <img
               src={experience.icon}
               alt="Kannan Karthikeyan"
-              className='w-[60%] h-[60%] object-contain'
+              className='w-[70%] h-[70%] object-contain'
             />
           </div>
         }
@@ -122,11 +122,12 @@ const Experience: React.FC = () => {
   `;
  
   return (
-    <div className="" id="experience">
+    <div className="" id="journey">
       <style>{timelineStyles}</style>
       <h1 className="heading mt-[7rem]">
-        What I have done{" "}
-        <span className="text-purple">so far</span>
+        Tech{" "}
+        <span className="text-purple"> journey </span>
+        so far
       </h1>
       <div className='flex flex-col py-5 sm:py-10 lg:py-20'>
         <VerticalTimeline
