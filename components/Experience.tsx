@@ -7,8 +7,8 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import { experiences } from "@/data";
-import { GlareCard } from "./ui/GlareCard";
 import { useInView } from "react-intersection-observer";
+import { WobbleCard } from "./ui/WobbleCard";
  
 interface Experience {
   date: string;
@@ -57,11 +57,11 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({ experience, position })
         }
         position={position}
       >
-        <GlareCard className="flex flex-col items-center justify-center px-2 py-10 md:py-5 md:px-5">
+        <WobbleCard className="flex flex-col items-center justify-center px-2 py-10 md:py-5 md:px-5">
           <div>
             <h3 className='text-white text-[24px] font-bold text-center mb-1'>{experience.title}</h3>
             <p
-              className='text-[16px] font-semibold text-purple'
+              className='text-[16px] font-semibold text-white-200'
               style={{ margin: 0 , textAlign: "center"}}
             >
               {experience.company_name}
@@ -78,7 +78,7 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({ experience, position })
               </li>
             ))}
           </ul>
-      </GlareCard>
+      </WobbleCard>
       </VerticalTimelineElement>
     </div>
   );
@@ -125,9 +125,9 @@ const Experience: React.FC = () => {
     <div className="" id="journey">
       <style>{timelineStyles}</style>
       <h1 className="heading mt-[7rem]">
-        Tech{" "}
-        <span className="text-purple"> journey </span>
-        so far
+        How I {" "}
+        <span className="text-purple"> tech </span>
+        traversed my way here
       </h1>
       <div className='flex flex-col py-5 sm:py-10 lg:py-20'>
         <VerticalTimeline

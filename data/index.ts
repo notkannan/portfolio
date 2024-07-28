@@ -77,7 +77,7 @@ export const navItems = [
       des: "A MERN Stack web application & an inclusive online platform dedicated to empowering youth through diverse developmental opportunities, facilitated by enthusiastic volunteers.",
       img: "/youthopia.png",
       iconLists: ["/re.svg", "/html.svg", "/css.svg", "/js.svg", "/mongo.svg", "/exp.svg", "/ts.svg"],
-      link: "https://github.com/notkannan?tab=repositories",
+      link: "https://github.com/notkannan/youthopia",
     },
     {
       id: 2,
@@ -85,7 +85,7 @@ export const navItems = [
       des: "Secure Stash is a secure and versatile file encryption application that allows users to encrypt various types of files",
       img: "/secure-stash.png",
       iconLists: ["/java.svg"],
-      link: "https://github.com/notkannan?tab=repositories",
+      link: "https://github.com/notkannan/secure-stash",
     },
     {
       id: 3,
