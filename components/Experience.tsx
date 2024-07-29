@@ -57,7 +57,7 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({ experience, position })
         }
         position={position}
       >
-        <div className="flex flex-col items-center justify-center px-2 py-10 md:py-5 md:px-5 bg-gradient-to-br from-purple to-black-200 rounded-3xl">
+        <div className="flex flex-col items-center justify-center px-2 py-10 md:py-5 md:px-5 bg-gradient-to-br from-violet-950 to-black-200 rounded-3xl">
           <div>
             <h3 className='text-white text-[24px] font-bold text-center mb-1'>{experience.title}</h3>
             <p

@@ -88,8 +88,8 @@ export const BentoGridItem = ({
                     src={spareImg}
                     alt="Kannan Karthikeyan"
                     className={"object-cover object-center w-full h-full"}
-                    width={1000}
-                    height={1000}
+                    width={150}
+                    height={0}
                 />
             )}
         </div>
