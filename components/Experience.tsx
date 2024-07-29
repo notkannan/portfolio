@@ -90,7 +90,6 @@ const Experience: React.FC = () => {
       padding: 0px;
     }
     .vertical-timeline::before {
-        content: "";
         position: absolute;
         top: 0;
         left: 18px;
