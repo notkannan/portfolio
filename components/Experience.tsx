@@ -8,7 +8,7 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import { experiences } from "@/data";
 import { useInView } from "react-intersection-observer";
-import { WobbleCard } from "./ui/WobbleCard";
+
  
 interface Experience {
   date: string;
