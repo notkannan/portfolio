@@ -5,6 +5,7 @@ import { FaLocationArrow } from 'react-icons/fa'
 import Image from 'next/image'
 
 const RecentProjects = () => {
+
   return (
     <div className='py-20' id='projects'>
         <h1 className="heading">
@@ -16,16 +17,16 @@ const RecentProjects = () => {
                 <div key={id} className=' sm:h-[41rem] h-[32rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-[570px] w-[80vw]'>
                     <PinContainer title={link} href={link}>
                         <div className='relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden sm:h-[40vh] h-[30vh] mb-10'>
-                            <div className='relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162d]'>
-                                <Image src='/bg.png' alt='Kannan Karthikeyan' width={50} height={50} />
+                            <div className='relative w-full h-full overflow-hidden rounded-3xl bg-[#13162d]'>
+                                <img src='/bg.webp' alt='Kannan Karthikeyan' width={50} height={50} />
                             </div>
                             <Image
                                 src={img}
                                 alt='Kannan Karthikeyan'
-                                className='z-10 absolute bottom-0'
-                                width={500}
-                                height={500}
+                                className='z-10 rounded-lg transform rotate-3 absolute top-[75px]'
                                 loading='lazy'
+                                width={475}
+                                height={100}
                             />
                         </div>
                         <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">{title}</h1>

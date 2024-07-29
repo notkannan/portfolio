@@ -57,7 +57,7 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({ experience, position })
         }
         position={position}
       >
-        <WobbleCard className="flex flex-col items-center justify-center px-2 py-10 md:py-5 md:px-5">
+        <div className="flex flex-col items-center justify-center px-2 py-10 md:py-5 md:px-5 bg-gradient-to-br from-purple to-black-200 rounded-3xl">
           <div>
             <h3 className='text-white text-[24px] font-bold text-center mb-1'>{experience.title}</h3>
             <p
@@ -72,13 +72,13 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({ experience, position })
             {experience.points.map((point, index) => (
               <li
                 key={`experience-point-${index}`}
-                className='text-white-100 text-[14px] pl-1 tracking-wider'
+                className='text-white-200 text-[14px] pl-1 tracking-wider'
               >
                 {point}
               </li>
             ))}
           </ul>
-      </WobbleCard>
+      </div>
       </VerticalTimelineElement>
     </div>
   );
