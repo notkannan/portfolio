@@ -19,10 +19,13 @@ const RecentProjects = () => {
                             <div className='relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162d]'>
                                 <Image src='/bg.png' alt='Kannan Karthikeyan' width={50} height={50} />
                             </div>
-                            <img
+                            <Image
                                 src={img}
                                 alt='Kannan Karthikeyan'
                                 className='z-10 absolute bottom-0'
+                                width={500}
+                                height={500}
+                                loading='lazy'
                             />
                         </div>
                         <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">{title}</h1>
