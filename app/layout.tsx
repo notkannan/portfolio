@@ -7,8 +7,8 @@ import Script from "next/script";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Kannan's Portfolio",
-  description: "Kannan Karthikeyan's Portfolio",
+  title: "Kannan Karthikeyan - Portfolio",
+  description: "Kannan Karthikeyan - Master's student at Northeastern University, Boston | Full Stack AI Software Engineer | Portfolio ",
 };
 
 export default function RootLayout({
