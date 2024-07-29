@@ -14,7 +14,7 @@ export const navItems = [
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
       imgClassName: "w-full h-full",
       titleClassName: "justify-end",
-      img: "/ai.jpg",
+      img: "/ai.webp",
       spareImg: "",
     },
     {
@@ -44,8 +44,8 @@ export const navItems = [
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
       titleClassName: "justify-start",
-      img: "/grid.svg",
-      spareImg: "/b4.svg",
+      img: "/grid.webp",
+      spareImg: "/b4.webp",
     },
   
     {
@@ -55,8 +55,8 @@ export const navItems = [
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
       titleClassName: "justify-center md:justify-start lg:justify-center",
-      img: "/b5.svg",
-      spareImg: "/grid.svg",
+      img: "/b5.webp",
+      spareImg: "/grid.webp",
     },
     {
       id: 6,
@@ -75,162 +75,56 @@ export const navItems = [
       id: 1,
       title: "Youthopia - A Youth Welfare Platform",
       des: "A MERN Stack web application & an inclusive online platform dedicated to empowering youth through diverse developmental opportunities, facilitated by enthusiastic volunteers.",
-      img: "/youthopia.png",
-      iconLists: ["/re.svg", "/html.svg", "/css.svg", "/js.svg", "/mongo.svg", "/exp.svg", "/ts.svg"],
+      img: "/youthopia.webp",
+      iconLists: ["/re.webp", "/html.webp", "/css.webp", "/js.webp", "/mongo.webp", "/exp.webp", "/ts.webp"],
       link: "https://github.com/notkannan/youthopia",
     },
     {
       id: 2,
       title: "Secure Stash - A File Encryption App",
       des: "Secure Stash is a secure and versatile file encryption application that allows users to encrypt various types of files",
-      img: "/secure-stash.png",
-      iconLists: ["/java.svg"],
+      img: "/secure-stash.webp",
+      iconLists: ["/java.webp"],
       link: "https://github.com/notkannan/secure-stash",
     },
     {
       id: 3,
       title: "Minecraft India",
       des: "A website that hosts discussion forms and donations, A videogame server which is home to over 100,000 users",
-      img: "/mci.png",
-      iconLists: ["/re.svg", "/html.svg", "/css.svg"],
+      img: "/mci.webp",
+      iconLists: ["/re.webp", "/html.webp", "/css.webp"],
       link: "https://mcindia.net",
     }, 
     {
       id: 4,
       title: "K Double E Architects",
       des: "A visually captive website built for K Double E Architects, An architectural firm based in Chennai, India",
-      img: "/kde.png",
-      iconLists: ["/html.svg", "/css.svg", "/ts.svg", "/js.svg", "/mongo.svg", "exp.svg", "/re.svg"],
+      img: "/kde.webp",
+      iconLists: ["/html.webp", "/css.webp", "/ts.webp", "/js.webp", "/mongo.webp", "exp.webp", "/re.webp"],
       link: "https://kdoublee.in",
     },
   ];
   
-  export const testimonials = [
-    {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
-    },
-    {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
-    },
-    {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
-    },
-    {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
-    },
-    {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
-    },
-  ];
-  
-  export const companies = [
-    {
-      id: 1,
-      name: "cloudinary",
-      img: "/cloud.svg",
-      nameImg: "/cloudName.svg",
-    },
-    {
-      id: 2,
-      name: "appwrite",
-      img: "/app.svg",
-      nameImg: "/appName.svg",
-    },
-    {
-      id: 3,
-      name: "HOSTINGER",
-      img: "/host.svg",
-      nameImg: "/hostName.svg",
-    },
-    {
-      id: 4,
-      name: "stream",
-      img: "/s.svg",
-      nameImg: "/streamName.svg",
-    },
-    {
-      id: 5,
-      name: "docker.",
-      img: "/dock.svg",
-      nameImg: "/dockerName.svg",
-    },
-  ];
-  
-  export const workExperience = [
-    {
-      id: 1,
-      title: "Frontend Engineer Intern",
-      desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
-      className: "md:col-span-2",
-      thumbnail: "/exp1.svg",
-    },
-    {
-      id: 2,
-      title: "Mobile App Dev - JSM Tech",
-      desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-      className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/exp2.svg",
-    },
-    {
-      id: 3,
-      title: "Freelance App Dev Project",
-      desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-      className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/exp3.svg",
-    },
-    {
-      id: 4,
-      title: "Lead Frontend Developer",
-      desc: "Developed and maintained user-facing features using modern frontend technologies.",
-      className: "md:col-span-2",
-      thumbnail: "/exp4.svg",
-    },
-  ];
+
   
   export const socialMedia = [
     {
       id: 1,
-      img: "/git.svg",
+      img: "/git.webp",
       link: "https://github.com/notkannan"
     },
     {
       id: 2,
-      img: "leetcode.svg",
+      img: "/leetcode.webp",
       link: "https://leetcode.com/u/notkannan/"
     },
     {
       id: 3,
-      img: "/link.svg",
+      img: "/link.webp",
       link: "https://linkedin.com/in/kannankarthikeyan4"
     },
   ];
 
-  export const leftLists = [
-    "React",
-    "Typescript",
-    "Next.js"
-  ]
-
-  export const rightLists = [
-    "Java",
-    "Spring Boot",
-    "AWS"
-  ]
 
   export const flipWordsContent = [
     'React', 
@@ -245,7 +139,7 @@ export const navItems = [
     {
       title: "Master of Science in Software Engineering Systems",
       company_name: "Northeastern University",
-      icon: "northeastern.png",
+      icon: "northeastern.webp",
       iconBg: "#fff",
       date: "January 2024 - December 2025",
       points: [
@@ -257,7 +151,7 @@ export const navItems = [
     {
       title: "Software Engineer",
       company_name: "Infosys Limited",
-      icon: "infosys.png",
+      icon: "infosys.webp",
       iconBg: "#fff",
       date: "November 2021 - April 2023",
       points: [

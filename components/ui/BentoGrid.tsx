@@ -3,7 +3,6 @@
 import { cn } from "@/utils/cn";
 import { BackgroundGradientAnimation } from "./GradientBg";
 import { flipWordsContent } from "@/data";
-import { GlobeDemo } from "./GridGlobe";
 import Lottie from "react-lottie";
 import { useState } from "react";
 import animationData from "@/data/confetti.json"
@@ -78,8 +77,8 @@ export const BentoGridItem = ({
                     src={img}
                     alt="Kannan Karthikeyan"
                     className={cn(imgClassName, "object-cover object-center")}
-                    width={800}
-                    height={800}
+                    width={1000}
+                    height={1000}
                 />
             )}
         </div>
@@ -89,8 +88,8 @@ export const BentoGridItem = ({
                     src={spareImg}
                     alt="Kannan Karthikeyan"
                     className={"object-cover object-center w-full h-full"}
-                    width={200}
-                    height={200}
+                    width={1000}
+                    height={1000}
                 />
             )}
         </div>
@@ -128,8 +127,6 @@ export const BentoGridItem = ({
                 />
               </div>
             )}
-
-            {id === 2 && <GlobeDemo />}
 
             {id === 6 && (
               <div className="mt-5 relative">

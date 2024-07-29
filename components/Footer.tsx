@@ -10,10 +10,12 @@ const Footer = () => {
   return (
     <footer className='w-full pt-20 pb-10' id='contact'>
         <div className='w-full absolute left-0 -bottom-72 min-h-96'>
-            <img 
-            src="/footer-grid.svg" 
+            <Image 
+            src="/footer-grid.webp" 
             alt="Kannan Karthikeyan"
-            className='w-full h-full opacity-30' />
+            className='w-full h-full opacity-30'
+            width={100}
+            height={100} />
         </div>
         <div className="flex flex-col items-center">
             <h1 className='heading lg:max-w-[50vw]'>Let&apos;s <span className='text-purple'>build</span> something amazing<span className='text-purple'> together, </span>I&apos;m all ears</h1>
