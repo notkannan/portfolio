@@ -73,6 +73,14 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
+      title: "Kitchen Rescue - Your AI Pantry Tracker",
+      des: "Kitchen Rescue is an AI powered pantry tracker app that helps you with great recipes and manage your inventory",
+      img: "/kitchen-rescue.webp",
+      iconLists: ["/re.webp", "/ts.webp", "/mui.png", "/tail.webp", "/openai.webp"],
+      link: "https://kitchen-rescue.vercel.app",
+    },
+    {
+      id: 2,
       title: "Youthopia - A Youth Welfare Platform",
       des: "A MERN Stack web application & an inclusive online platform dedicated to empowering youth through diverse developmental opportunities, facilitated by enthusiastic volunteers.",
       img: "/youthopia.webp",
@@ -80,7 +88,7 @@ export const navItems = [
       link: "https://github.com/notkannan/youthopia",
     },
     {
-      id: 2,
+      id: 3,
       title: "Secure Stash - A File Encryption App",
       des: "Secure Stash is a secure and versatile file encryption application that allows users to encrypt various types of files",
       img: "/secure-stash.webp",
@@ -88,20 +96,12 @@ export const navItems = [
       link: "https://github.com/notkannan/secure-stash",
     },
     {
-      id: 3,
+      id: 4,
       title: "Minecraft India",
       des: "A website that hosts discussion forms and donations, A videogame server which is home to over 100,000 users",
       img: "/mci.webp",
       iconLists: ["/re.webp", "/html.webp", "/css.webp"],
       link: "https://mcindia.net",
-    }, 
-    {
-      id: 4,
-      title: "K Double E Architects",
-      des: "A visually captive website built for K Double E Architects, An architectural firm based in Chennai, India",
-      img: "/kde.webp",
-      iconLists: ["/html.webp", "/css.webp", "/ts.webp", "/js.webp", "/mongo.webp", "exp.webp", "/re.webp"],
-      link: "https://kdoublee.in",
     },
   ];
   
