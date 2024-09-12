@@ -81,6 +81,14 @@ export const navItems = [
     },
     {
       id: 2,
+      title: "Card Flix - AI Flashcards Generator",
+      des: "Card Flix is a flashcards generation app, with the power of AI, create flashcards in an instant.",
+      img: "/flashcard-saas.webp",
+      iconLists: ["/re.webp", "/js.webp", "/tail.webp", "/mui.png", "openai.webp"],
+      link: "https://card-flix.vercel.app",
+    },
+    {
+      id: 3,
       title: "Youthopia - A Youth Welfare Platform",
       des: "A MERN Stack web application & an inclusive online platform dedicated to empowering youth through diverse developmental opportunities, facilitated by enthusiastic volunteers.",
       img: "/youthopia.webp",
@@ -88,20 +96,12 @@ export const navItems = [
       link: "https://github.com/notkannan/youthopia",
     },
     {
-      id: 3,
+      id: 4,
       title: "Secure Stash - A File Encryption App",
       des: "Secure Stash is a secure and versatile file encryption application that allows users to encrypt various types of files",
       img: "/secure-stash.webp",
       iconLists: ["/java.webp"],
       link: "https://github.com/notkannan/secure-stash",
-    },
-    {
-      id: 4,
-      title: "Minecraft India",
-      des: "A website that hosts discussion forms and donations, A videogame server which is home to over 100,000 users",
-      img: "/mci.webp",
-      iconLists: ["/re.webp", "/html.webp", "/css.webp"],
-      link: "https://mcindia.net",
     },
   ];
   
