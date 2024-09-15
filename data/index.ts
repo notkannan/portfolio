@@ -89,6 +89,14 @@ export const navItems = [
     },
     {
       id: 3,
+      title: "IMBot - AI powered chatbot",
+      des: "IMBot is an AI powered chatbot dedicated for Northeastern University's Intramurals Sports. The aim of the chatbot is to provide students with all the information related to Intramurals.",
+      img: "/chatbot.png",
+      iconLists: ["/re.webp", "/ts.webp", "/tail.webp", "/mui.png", "openai.webp"],
+      link: "https://neuimbot.vercel.app",
+    },
+    {
+      id: 4,
       title: "Youthopia - A Youth Welfare Platform",
       des: "A MERN Stack web application & an inclusive online platform dedicated to empowering youth through diverse developmental opportunities, facilitated by enthusiastic volunteers.",
       img: "/youthopia.webp",
@@ -96,7 +104,7 @@ export const navItems = [
       link: "https://github.com/notkannan/youthopia",
     },
     {
-      id: 4,
+      id: 5,
       title: "Secure Stash - A File Encryption App",
       des: "Secure Stash is a secure and versatile file encryption application that allows users to encrypt various types of files",
       img: "/secure-stash.webp",
@@ -128,8 +136,9 @@ export const navItems = [
 
   export const flipWordsContent = [
     'React', 
-    'NextJS',
-    'JavaScript', 
+    'Next.js',
+    'JavaScript',
+    'TypeScript', 
     'Python', 
     'C++', 
     'AWS'
