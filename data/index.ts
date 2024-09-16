@@ -76,7 +76,7 @@ export const navItems = [
       title: "Kitchen Rescue - Your AI Pantry Tracker",
       des: "Kitchen Rescue is an AI powered pantry tracker app that helps you with great recipes and manage your inventory",
       img: "/kitchen-rescue.webp",
-      iconLists: ["/re.webp", "/ts.webp", "/mui.png", "/tail.webp", "/openai.webp"],
+      iconLists: ["/nextjs.svg","/re.webp", "/ts.webp", "/mui.png", "firebase.svg","/tail.webp", "/openai.webp"],
       link: "https://kitchen-rescue.vercel.app",
     },
     {
@@ -84,7 +84,7 @@ export const navItems = [
       title: "Card Flix - AI Flashcards Generator",
       des: "Card Flix is a flashcards generation app, with the power of AI, create flashcards in an instant.",
       img: "/flashcard-saas.webp",
-      iconLists: ["/re.webp", "/js.webp", "/tail.webp", "/mui.png", "openai.webp"],
+      iconLists: ["/nextjs.svg","/re.webp", "/js.webp","firebase.svg", "/tail.webp", "/mui.png","stripe.svg", "openai.webp"],
       link: "https://card-flix.vercel.app",
     },
     {
@@ -92,7 +92,7 @@ export const navItems = [
       title: "IMBot - AI powered chatbot",
       des: "IMBot is an AI powered chatbot dedicated for Northeastern University's Intramurals Sports. The aim of the chatbot is to provide students with all the information related to Intramurals.",
       img: "/chatbot.png",
-      iconLists: ["/re.webp", "/ts.webp", "/tail.webp", "/mui.png", "openai.webp"],
+      iconLists: ["/nextjs.svg","/re.webp", "/ts.webp","firebase.svg", "/tail.webp", "/mui.png", "openai.webp"],
       link: "https://neuimbot.vercel.app",
     },
     {
