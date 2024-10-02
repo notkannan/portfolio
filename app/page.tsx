@@ -4,11 +4,11 @@ import { FloatingNav } from "@/components/ui/FloatingNav";
 import Grid from "@/components/Grid";
 import RecentProjects from "@/components/RecentProjects";
 import { navItems } from "@/data";
+import { Skills } from "@/components/Skills";
 import Footer from "@/components/Footer";
 import Experience from "@/components/Experience";
 import { HoverEffect } from "@/components/ui/card-hover";
 import { skills } from "@/data";
-import { Skills } from "@/components/Skills";
 
 export default function Home() {
 
