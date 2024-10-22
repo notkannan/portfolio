@@ -164,11 +164,11 @@ export const navItems = [
       iconBg: "#fff",
       date: "November 2021 - April 2023",
       points: [
-        "Experienced in developing business solutions using Microsoft's Dynamics 365 CE, Sales, Marketing, Field/Project Service.",
-        "Developed and deployed customized Dynamics 365 apps for clients from small-scale to multimillion dollar industries, resulting in a 20% increase in client satisfaction ratings",
-        "Implemented efficient data migration strategies for clients within Microsoft Dynamics 365, resulting in a successful transfer of over 10 million records without any data loss",
-        "Delivered valuable insights of Dynamics 365’s functionality, and configured applications to meet multiple client’s requirements using the Microsoft Dynamics CRM Customization Tool, Workflow Tool, and SDK",
-        "Adeptly mentored 5+ junior Systems Engineers, divulging them into Dynamics 365 functionality through continuous supervision and review sessions and as a result, they were certified as Microsoft Consultants"
+        "Spearheaded the full-stack development of Dynamics 365 apps using C# and .NET Core, resulting in scalable solutions for enterprise clients, including Fortune 500 companies",
+        "Led the development of custom plugins and workflows using Dynamics 365 SDK and JavaScript, providing tailored functionality that enhanced system capabilities",
+        "Built and deployed RESTful APIs to integrate Dynamics 365 with third-party services, using Azure API Management and Azure Functions, improving data synchronization across platforms by 35%",
+        "Employed Azure DevOps for version control, CI/CD pipelines, and automated testing, reducing the deployment cycle by 50%",
+        "Adeptly mentored 5+ junior Systems Engineers, introducing them to Dynamics 365 functionality through continuous supervision and review sessions, resulting in a 30% increase in project delivery",
       ],
     },
   ];
