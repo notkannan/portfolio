@@ -164,11 +164,12 @@ export const navItems = [
       iconBg: "#fff",
       date: "November 2021 - April 2023",
       points: [
-        "Spearheaded the full-stack development of Dynamics 365 apps using C# and .NET Core, resulting in scalable solutions for enterprise clients, including Fortune 500 companies",
-        "Led the development of custom plugins and workflows using Dynamics 365 SDK and JavaScript, providing tailored functionality that enhanced system capabilities",
+        "Developed and deployed full-stack solutions for Dynamics 365 using C#, React and JavaScript, enhancing CRM functionalities for enterprise clients, including Fortune 500 companies, resulting in improved user experience and customer engagement",
+        "Led the development of custom plugins and workflows using JavaScript and Dynamics 365 SDK, providing tailored functionality that enhanced system capabilities",
+        "Created reusable, modular front-end components using ReactJS, HTML, CSS, and JavaScript frameworks, supporting consistent branding and seamless cross-platform functionality within customized Dynamics 365 environments",
+        "Assisted in building responsive UI elements for Power Platform solutions, using ReactJS and JavaScript frameworks to improve accessibility and create a cohesive look and feel for client-facing applications",
         "Built and deployed RESTful APIs to integrate Dynamics 365 with third-party services, using Azure API Management and Azure Functions, improving data synchronization across platforms by 35%",
-        "Employed Azure DevOps for version control, CI/CD pipelines, and automated testing, reducing the deployment cycle by 50%",
-        "Adeptly mentored 5+ junior Systems Engineers, introducing them to Dynamics 365 functionality through continuous supervision and review sessions, resulting in a 30% increase in project delivery",
+        "Mentored junior engineers in Dynamics 365 development, guiding them in JavaScript and Azure best practices, which led to a 30% increase in successful project delivery and improved team productivity"
       ],
     },
   ];
