@@ -153,8 +153,8 @@ export const navItems = [
       date: "January 2024 - December 2025",
       points: [
         "GPA: 3.86",
-        "Relevant Coursework: Concepts of Object Oriented Design, Web Development and User Experience Engineering",
-        "Currently Working on: Network Structures and Cloud Computing , Database Management and Database Design"
+        "Semester I: Concepts of Object Oriented Design, Web Development and User Experience Engineering",
+        "Semester II: Network Structures and Cloud Computing , Database Management and Database Design"
       ],
     },
     {
