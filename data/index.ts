@@ -154,7 +154,7 @@ export const navItems = [
       points: [
         "GPA: 3.86",
         "Semester I: Concepts of Object Oriented Design, Web Development and User Experience Engineering",
-        "Semester II: Network Structures and Cloud Computing, Database Management and Database Design"
+        "Semester II: Network Structures and Cloud Computing, User Experience Design/Testing"
       ],
     },
     {
