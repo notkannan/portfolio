@@ -9,7 +9,7 @@ export const navItems = [
   export const gridItems = [
     {
       id: 1,
-      title: "The intersection of AI, ethics, and human-centered design is where I love to explore and create.",
+      title: "Enthusiastic about building highly scalable and available infrastructure all while incorporating AI into software development",
       description: "",
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
       imgClassName: "w-full h-full",
