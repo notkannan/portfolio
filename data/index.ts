@@ -152,9 +152,10 @@ export const navItems = [
       iconBg: "#fff",
       date: "January 2024 - December 2025",
       points: [
-        "GPA: 3.86",
+        "GPA: 3.84",
         "Semester I: Concepts of Object Oriented Design, Web Development and User Experience Engineering",
-        "Semester II: Network Structures and Cloud Computing, User Experience Design/Testing"
+        "Semester II: Network Structures and Cloud Computing, User Experience Design/Testing",
+        "Semester III: Enterprise Software Design, Data Structures and Algorithms",
       ],
     },
     {
