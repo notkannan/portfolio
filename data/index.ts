@@ -146,6 +146,20 @@ export const navItems = [
 
   export const experiences = [
     {
+      title: "Research Assistant | Full-Stack Developer",
+      company_name: "Northeastern University",
+      icon: "northeastern.webp",
+      iconBg: "#fff",
+      date: "December 2024 - Present",
+      points: [
+        "Designed and developed a highly scalable Retro Mobile Gaming Database web application using React.js, AWS Lambda, API Gateway, and DynamoDB, handling 1000+ game lookups/month",
+
+        "Developed and optimized RESTful APIs, leveraging AWS Lambda and API Gateway, achieving 35% faster response times for database queries and dynamic content rendering",
+
+        "Optimized cloud infrastructure by migrating from Digital Ocean to AWS free tiers, reducing hosting costs by 80% while maintaining 99.99% uptime and high availability",
+      ],
+    },
+    {
       title: "Master of Science in Software Engineering Systems",
       company_name: "Northeastern University",
       icon: "northeastern.webp",
