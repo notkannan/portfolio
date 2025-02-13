@@ -177,14 +177,12 @@ export const navItems = [
       company_name: "Infosys Limited",
       icon: "infosys.webp",
       iconBg: "#fff",
-      date: "November 2021 - April 2023",
+      date: "November 2021 - March 2023",
       points: [
-        "Developed and deployed full-stack solutions for Dynamics 365 using C#, React and JavaScript, enhancing CRM functionalities for enterprise clients, including Fortune 500 companies, resulting in improved user experience and customer engagement",
-        "Led the development of custom plugins and workflows using JavaScript and Dynamics 365 SDK, providing tailored functionality that enhanced system capabilities",
-        "Created reusable, modular front-end components using ReactJS, HTML, CSS, and JavaScript frameworks, supporting consistent branding and seamless cross-platform functionality within customized Dynamics 365 environments",
-        "Assisted in building responsive UI elements for Power Platform solutions, using ReactJS and JavaScript frameworks to improve accessibility and create a cohesive look and feel for client-facing applications",
-        "Built and deployed RESTful APIs to integrate Dynamics 365 with third-party services, using Azure API Management and Azure Functions, improving data synchronization across platforms by 35%",
-        "Mentored junior engineers in Dynamics 365 development, guiding them in JavaScript and Azure best practices, which led to a 30% increase in successful project delivery and improved team productivity"
+        "Developed a full-stack Dynamics 365 solution using React, JavaScript, and Azure Services, consolidating customer data into a single, responsive CRM, reducing data retrieval time by 50% and improving team productivity by 40%", 
+        "Developed reusable, modular front-end components such as dynamic React forms, interactive dashboards, and custom UI elements using HTML, CSS, JavaScript, and React, enhancing UI responsiveness and improving internal adoption rates by 50%", 
+        "Developed serverless backend functionalities using Azure Functions, enabling real-time data processing, event-driven workflows, and seamless integration with third-party services, reducing manual intervention by 50% and improving system efficiency", "Architected and implemented a event-driven ticket management system using Apache Kafka, integrating with D365 Customer Service Hub, resulting in 40% faster ticket acknowledgment rate and improved customer satisfaction scores by 32%", 
+        "Mentored junior developers on best practices for React, resulting in a 20% increase in code quality and faster onboarding for new team members"
       ],
     },
   ];
