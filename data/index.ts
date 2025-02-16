@@ -182,7 +182,7 @@ export const navItems = [
         "Constructed modular UI elements that improved loading efficiency by decreasing render times on key application pages from an average of 2 seconds to less than 1 second, streamlining user interactions with essential features",
         "Orchestrated serverless backend operations via Azure Functions, incorporating event-driven workflows and microservices integration, slashing manual processes by 50\% through automated pipelines", 
         "Designed a distributed ticket routing system leveraging Apache Kafka's pub/sub model with D365 Customer Service Hub integration, accelerating ticket response times by 40% and elevating satisfaction metrics 32%", 
-        "Instituted React development standards and mentorship program, driving 20% improvement in team code quality metrics",
+        "Led Agile development practices including daily standups, sprint planning, and retrospectives, while mentoring team members on best practices, resulting in 20\% improvement in sprint velocity and code quality metrics",
       ],
     },
   ];
