@@ -152,11 +152,10 @@ export const navItems = [
       iconBg: "#fff",
       date: "December 2024 - Present",
       points: [
-        "Designed and developed a highly scalable Retro Mobile Gaming Database web application using React.js, AWS Lambda, API Gateway, and DynamoDB, handling 1000+ game lookups/month",
-
-        "Developed and optimized RESTful APIs, leveraging AWS Lambda and API Gateway, achieving 35% faster response times for database queries and dynamic content rendering",
-
-        "Optimized cloud infrastructure by migrating from Digital Ocean to AWS free tiers, reducing hosting costs by 80% while maintaining 99.99% uptime and high availability",
+        "Architected and deployed a serverless Retro Gaming Database, implementing AWS Lambda with API Gateway for event-driven microservices, and DynamoDB with single-digit millisecond latency at 5,000+ monthly queries", 
+        "Engineered performant RESTful APIs with request batching and connection pooling, reducing average response times from 300ms to 195ms through implemented Redis caching layer and query optimization", 
+        "Led cloud infrastructure migration from Digital Ocean to AWS, leveraging AWS Free Tier services including EC2, S3, and CloudFront CDN, resulting in 80% cost reduction while maintaining 99.99% SLA compliance", 
+        "Refactored database schema and optimized queries, reducing read/write latencies by 40%, enhancing application responsiveness",
       ],
     },
     {
@@ -179,10 +178,11 @@ export const navItems = [
       iconBg: "#fff",
       date: "November 2021 - March 2023",
       points: [
-        "Developed a full-stack Dynamics 365 solution using React, JavaScript, and Azure Services, consolidating customer data into a single, responsive CRM, reducing data retrieval time by 50% and improving team productivity by 40%", 
-        "Developed reusable, modular front-end components such as dynamic React forms, interactive dashboards, and custom UI elements using HTML, CSS, JavaScript, and React, enhancing UI responsiveness and improving internal adoption rates by 50%", 
-        "Developed serverless backend functionalities using Azure Functions, enabling real-time data processing, event-driven workflows, and seamless integration with third-party services, reducing manual intervention by 50% and improving system efficiency", "Architected and implemented a event-driven ticket management system using Apache Kafka, integrating with D365 Customer Service Hub, resulting in 40% faster ticket acknowledgment rate and improved customer satisfaction scores by 32%", 
-        "Mentored junior developers on best practices for React, resulting in a 20% increase in code quality and faster onboarding for new team members"
+        "Spearheaded the development of a full-stack system using React for frontend and Azure Functions for a scalable backend, reducing data retrieval time by 50% and improving team productivity by 40%", 
+        "Constructed modular UI elements that improved loading efficiency by decreasing render times on key application pages from an average of 2 seconds to less than 1 second, streamlining user interactions with essential features",
+        "Orchestrated serverless backend operations via Azure Functions, incorporating event-driven workflows and microservices integration, slashing manual processes by 50\% through automated pipelines", 
+        "Designed a distributed ticket routing system leveraging Apache Kafka's pub/sub model with D365 Customer Service Hub integration, accelerating ticket response times by 40% and elevating satisfaction metrics 32%", 
+        "Instituted React development standards and mentorship program, driving 20% improvement in team code quality metrics",
       ],
     },
   ];
