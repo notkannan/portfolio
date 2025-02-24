@@ -71,6 +71,14 @@ export const navItems = [
   ];
   
   export const projects = [
+    // {
+    //   id: 1,
+    //   title: "Cloud Native Backend Application",
+    //   des: "Kitchen Rescue is an AI powered pantry tracker app that helps you with great recipes and manage your inventory",
+    //   img: "/kitchen-rescue.webp",
+    //   iconLists: ["/nextjs.svg","/re.webp", "/ts.webp", "/mui.png", "firebase.svg","/tail.webp", "/openai.webp"],
+    //   link: "https://kitchen-rescue.vercel.app",
+    // },
     {
       id: 1,
       title: "Kitchen Rescue - Your AI Pantry Tracker",
@@ -178,11 +186,7 @@ export const navItems = [
       iconBg: "#fff",
       date: "November 2021 - March 2023",
       points: [
-        "Spearheaded the development of a full-stack system using React for frontend and Azure Functions for a scalable backend, reducing data retrieval time by 50% and improving team productivity by 40%", 
-        "Constructed modular UI elements that improved loading efficiency by decreasing render times on key application pages from an average of 2 seconds to less than 1 second, streamlining user interactions with essential features",
-        "Orchestrated serverless backend operations via Azure Functions, incorporating event-driven workflows and microservices integration, slashing manual processes by 50\% through automated pipelines", 
-        "Designed a distributed ticket routing system leveraging Apache Kafka's pub/sub model with D365 Customer Service Hub integration, accelerating ticket response times by 40% and elevating satisfaction metrics 32%", 
-        "Led Agile development practices including daily standups, sprint planning, and retrospectives, while mentoring team members on best practices, resulting in 20\% improvement in sprint velocity and code quality metrics",
+        "Reduced frontend load times by 50%, tracked via Chrome DevTools, by developing optimized React components and implementing code-splitting strategies", "Constructed modular React components that improved loading efficiency by decreasing render times on key application pages from an average of 2 seconds to less than 1 second, streamlining user interactions with essential features", "Orchestrated serverless backend operations via AWS Lambda, incorporating event-driven workflows and microservices integration, slashing manual processes by 50% through automated pipelines", "Engineered secure email verification system using AWS Lambda, SNS, and SendGrid, achieving 99.9% email delivery rate and reducing user authentication failures by 35%", "Implemented comprehensive testing using Jest and React Testing Library, increasing code coverage to 85% and reducing production bugs by 40%", "Led Agile development practices including daily standups, sprint planning, and retrospectives, while mentoring team members on best practices, resulting in 20% improvement in sprint velocity and code quality metrics",
       ],
     },
   ];
