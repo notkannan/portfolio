@@ -160,10 +160,7 @@ export const navItems = [
       iconBg: "#fff",
       date: "December 2024 - Present",
       points: [
-        "Architected and deployed a serverless Retro Gaming Database, implementing AWS Lambda with API Gateway for event-driven microservices, and DynamoDB with single-digit millisecond latency at 5,000+ monthly queries", 
-        "Engineered performant RESTful APIs with request batching and connection pooling, reducing average response times from 300ms to 195ms through implemented Redis caching layer and query optimization", 
-        "Led cloud infrastructure migration from Digital Ocean to AWS, leveraging AWS Free Tier services including EC2, S3, and CloudFront CDN, resulting in 80% cost reduction while maintaining 99.99% SLA compliance", 
-        "Refactored database schema and optimized queries, reducing read/write latencies by 40%, enhancing application responsiveness",
+        "Architected a full-stack Retro Gaming Database, achieving 40% faster component rendering through React.js Context API and custom hooks, while handling 5,000+ monthly queries via AWS Lambda and API Gateway", "Decreased API response latency by 75% (from 200ms to 50ms) as measured by CloudWatch metrics by designing an efficient serverless architecture using AWS Lambda, API Gateway, and DynamoDB", "Achieved 80% cost optimization, validated through AWS billing metrics, by migrating infrastructure to AWS Free Tier services while maintaining 99.99% uptime",
       ],
     },
     {
