@@ -160,7 +160,10 @@ export const navItems = [
       iconBg: "#fff",
       date: "December 2024 - Present",
       points: [
-        "Architected a full-stack Retro Gaming Database, achieving 40% faster component rendering through React.js Context API and custom hooks, while handling 5,000+ monthly queries via AWS Lambda and API Gateway", "Decreased API response latency by 75% (from 200ms to 50ms) as measured by CloudWatch metrics by designing an efficient serverless architecture using AWS Lambda, API Gateway, and DynamoDB", "Achieved 80% cost optimization, validated through AWS billing metrics, by migrating infrastructure to AWS Free Tier services while maintaining 99.99% uptime",
+        "Executed end-to-end AWS cloud migration by implementing Lambda functions with custom API Gateway endpoints, reducing infrastructure costs by 65% while scaling to handle 10,000+ concurrent requests",
+        "Developed an email verification flow using AWS Lambda and SendGrid API, which reduced authentication failures by 40%",
+        "Achieved 80% cost optimization, validated through AWS billing metrics, by migrating infrastructure to AWS services while maintaining 99.99% uptime",
+        "Enhanced database performance by 40%, verified through query analytics, by optimizing DynamoDB schema design and implementing efficient indexing strategies"
       ],
     },
     {
@@ -183,7 +186,11 @@ export const navItems = [
       iconBg: "#fff",
       date: "November 2021 - March 2023",
       points: [
-        "Reduced frontend load times by 50%, tracked via Chrome DevTools, by developing optimized React components and implementing code-splitting strategies", "Constructed modular React components that improved loading efficiency by decreasing render times on key application pages from an average of 2 seconds to less than 1 second, streamlining user interactions with essential features", "Orchestrated serverless backend operations via AWS Lambda, incorporating event-driven workflows and microservices integration, slashing manual processes by 50% through automated pipelines", "Engineered secure email verification system using AWS Lambda, SNS, and SendGrid, achieving 99.9% email delivery rate and reducing user authentication failures by 35%", "Implemented comprehensive testing using Jest and React Testing Library, increasing code coverage to 85% and reducing production bugs by 40%", "Led Agile development practices including daily standups, sprint planning, and retrospectives, while mentoring team members on best practices, resulting in 20% improvement in sprint velocity and code quality metrics",
+        "Improved user interface performance by rebuilding React component architecture, eliminating 7 critical render bottlenecks that decreased page load times from 3.2s to 0.8s and boosted monthly active users by 78%",
+        "Modernized application state management by refactoring components with React hooks, implementing Redux for global state and Context API for component-specific state, resulting in a 45% reduction in boilerplate code",
+        "Reduced frontend load times by 50%, tracked via Chrome DevTools, by developing optimized React components and implementing code-splitting strategies",
+        "Implemented comprehensive testing using Jest and React Testing Library, increasing code coverage to 85% and reducing production bugs by 40%",
+        "Led Agile development practices including daily standups, sprint planning, and retrospectives, while mentoring team members on best practices, resulting in a 20% improvement in sprint velocity and code quality metrics"
       ],
     },
   ];
