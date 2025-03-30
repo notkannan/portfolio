@@ -160,10 +160,7 @@ export const navItems = [
       iconBg: "#fff",
       date: "December 2024 - Present",
       points: [
-        "Executed end-to-end AWS cloud migration by implementing Lambda functions with custom API Gateway endpoints, reducing infrastructure costs by 65% while scaling to handle 10,000+ concurrent requests",
-        "Developed an email verification flow using AWS Lambda and SendGrid API, which reduced authentication failures by 40%",
-        "Achieved 80% cost optimization, validated through AWS billing metrics, by migrating infrastructure to AWS services while maintaining 99.99% uptime",
-        "Enhanced database performance by 40%, verified through query analytics, by optimizing DynamoDB schema design and implementing efficient indexing strategies"
+        "Migrated app infrastructure to AWS by building Lambda functions with custom API Gateway routes, cutting costs by 65% and scaling to 10,000+ concurrent users", "Improved DynamoDB query speed by 40% by redesigning the schema and adding optimized indexes, confirmed through performance analytics", "Implemented S3 storage solution for user profile pictures with CloudFront CDN, reducing global media delivery latency by 85%", "Built a reliable email verification system using AWS Lambda and SNS with secure token management, reducing user login failures by 40% and enhancing account security", "Configured Auto Scaling Groups with Elastic Load Balancers to automatically scale EC2 instances based on traffic demands, maintaining response times under 100ms during peak usage"
       ],
     },
     {
@@ -186,11 +183,12 @@ export const navItems = [
       iconBg: "#fff",
       date: "November 2021 - March 2023",
       points: [
-        "Improved user interface performance by rebuilding React component architecture, eliminating 7 critical render bottlenecks that decreased page load times from 3.2s to 0.8s and boosted monthly active users by 78%",
-        "Modernized application state management by refactoring components with React hooks, implementing Redux for global state and Context API for component-specific state, resulting in a 45% reduction in boilerplate code",
-        "Reduced frontend load times by 50%, tracked via Chrome DevTools, by developing optimized React components and implementing code-splitting strategies",
-        "Implemented comprehensive testing using Jest and React Testing Library, increasing code coverage to 85% and reducing production bugs by 40%",
-        "Led Agile development practices including daily standups, sprint planning, and retrospectives, while mentoring team members on best practices, resulting in a 20% improvement in sprint velocity and code quality metrics"
+      "Improved user interface performance by rebuilding React component architecture, eliminating critical render bottlenecks that decreased page load times and boosted monthly active users by 78%", 
+      "Streamlined scheduling module development, created a reusable module with standard UI and simplified the process for developers, improving product development time and ensuring easier issue addressing", 
+      "Refactored state management using Redux and Context API, cutting repetitive code by 45% and improving maintainability", 
+      "Delivered timely resolution for 500+ issues faced by customers through proactive problem determination, ownership, root cause analysis, and followed through to completion with comprehensive documentation", 
+      "Boosted code reliability by setting up thorough Jest and React Testing Library coverage, raising test coverage to 85% and reducing bugs by 40%", 
+      "Led Agile development practices including daily standups, sprint planning, and retrospectives, while mentoring team members on best practices, resulting in 20% improvement in sprint velocity and code quality metrics"
       ],
     },
   ];
