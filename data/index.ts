@@ -81,7 +81,7 @@ export const navItems = [
     // },
     {
       id: 1,
-      title: "Kitchen Rescue - Your AI Pantry Tracker",
+      title: "Kitchen Rescue - AI Pantry Tracker",
       des: "Kitchen Rescue is an AI powered pantry tracker app that helps you with great recipes and manage your inventory",
       img: "/kitchen-rescue.webp",
       iconLists: ["/nextjs.svg","/re.webp", "/ts.webp", "/mui.png", "firebase.svg","/tail.webp", "/openai.webp"],
