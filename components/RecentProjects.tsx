@@ -18,7 +18,7 @@ const RecentProjects = () => {
                     <PinContainer title={link} href={link}>
                         <div className='relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden sm:h-[40vh] h-[30vh] mb-10'>
                             <div className='relative w-full h-full overflow-hidden rounded-3xl bg-[#13162d]'>
-                                <img src='/bg.webp' alt='Kannan Karthikeyan' width={50} height={50} />
+                                <Image src='/bg.webp' alt='Kannan Karthikeyan' width={50} height={50} />
                             </div>
                             <Image
                                 src={img}
@@ -45,7 +45,7 @@ const RecentProjects = () => {
                             </div>
                             <div className='flex justify-center items-center'>
                                 <p className='flex lg:text-xl md:text-xs text-sm text-purple'>
-                                    Check Live Site
+                                    Take Me There
                                 </p>
                                 <FaLocationArrow className='ms-3' color='#CBACF9' />
                             </div>

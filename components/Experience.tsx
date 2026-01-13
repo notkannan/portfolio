@@ -124,9 +124,8 @@ const Experience: React.FC = () => {
     <div className="" id="journey">
       <style>{timelineStyles}</style>
       <h1 className="heading mt-[7rem]">
-        How I {" "}
-        <span className="text-purple"> tech </span>
-        traversed my way here
+        Places where I&apos;ve{" "}
+        <span className="text-purple"> contributed </span>
       </h1>
       <div className='flex flex-col py-5 sm:py-10 lg:py-20'>
         <VerticalTimeline

@@ -11,6 +11,8 @@ import { IoCopyOutline } from "react-icons/io5";
 import { FlipWords } from "./FlipWords";
 import { WavyBackground } from "./WavyBackground";
 import Image from "next/image";
+import { BackgroundBeams } from "./BackgroundBeams";
+import { StarsBackground } from "./StarBackground";
 
 export const BentoGrid = ({
   className,
@@ -70,6 +72,11 @@ export const BentoGridItem = ({
       }}
     >
 
+      {id === 2 && (
+        <div className="absolute top-0 left-0 w-full h-full">
+          <StarsBackground />
+        </div>
+      )}
       <div className={`${id === 6 && 'flex justify-center'} h-full`}>
         <div className="w-full h-full absolute">
             {img && (

@@ -1,3 +1,5 @@
+'use client';
+
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
@@ -10,7 +12,8 @@ import ShootingStars from "./ui/shooting-stars";
 const Hero = () => {
   return (
     <div className="pd-20 pt-36">
-      <div>
+        {/* <DarkVeil /> */}
+      {/* <div>
         <Spotlight
           className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
           fill="white"
@@ -25,7 +28,7 @@ const Hero = () => {
       <div className="h-screen w-full dark:bg-black-100 bg-white  dark:bg-grid-white/[0.03] bg-grid-black/[0.2] flex items-center justify-center top-0 left-0 absolute">
         <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black-100 bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]" />
       </div>
-      <ShootingStars maxSpeed={5} starColor="#EDD332" trailColor="#EDD332" />
+      <ShootingStars maxSpeed={5} starColor="#EDD332" trailColor="#EDD332" /> */}
 
       <div className="flex justify-center relative mt-20 mb-10 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
@@ -35,10 +38,10 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Innovating at the intersection of AI and Full Stack Development
+            A Full Stack Software Engineer specializing in AI and Cloud
           </p>
           <h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-            Based in Boston, MA
+            From Boston, MA
           </h2>
           <a href="#projects">
             <MagicButton
