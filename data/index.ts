@@ -171,7 +171,7 @@ export const navItems = [
       points: [
         "Built serverless document processing pipeline using AWS Step Functions, Lambda, and Bedrock (Claude Sonnet 4.5 with tool calling), reducing processing time from 20+ seconds to <10 seconds across 30+ IRS form types", 
         "Designed two-stage extraction combining AWS Textract OCR with Claude tool calling, achieving 95%+ accuracy through confidence scoring and validation", 
-        "Architected event-driven microservices using AWS SQS, Lambda, and API Gateway to process Stripe and Veriff webhooks, achieving 100\% delivery rate across 200+ alpha test transactions",
+        "Architected event-driven microservices using AWS SQS, Lambda, and API Gateway to process Stripe and Veriff webhooks, achieving 100% delivery rate across 200+ alpha test transactions",
         "Developed multi-modal RAG chatbot using Bedrock and S3 Vectors with encrypted storage, PII removal, and safety guardrails, reducing Intercom support tickets by 78%",
         "Deployed 4 production services on ECS/Fargate with ALB, implementing Infrastructure-as-Code via CDK and CI/CD pipelines across dev/test/prod environments",
         "Built schema mapping tool enabling accountants to map 50+ IRS form fields to Intuit Lacerte input codes, streamlining B2B document-to-software workflow"
