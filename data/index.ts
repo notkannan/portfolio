@@ -169,12 +169,12 @@ export const navItems = [
       iconBg: "#fff",
       date: "May 2025 - December 2025",
       points: [
-        "Built serverless document processing pipeline using AWS Step Functions, Lambda, and Bedrock (Claude Sonnet 4.5 with tool calling), reducing processing time from 20+ seconds to <10 seconds across 30+ IRS form types", 
-        "Designed two-stage extraction combining AWS Textract OCR with Claude tool calling, achieving 95%+ accuracy through confidence scoring and validation", 
-        "Architected event-driven microservices using AWS SQS, Lambda, and API Gateway to process Stripe and Veriff webhooks, achieving 100% delivery rate across 200+ alpha test transactions",
+        "Built distributed document processing pipeline using AWS Step Functions, Lambda, and Bedrock (Claude Sonnet 4.5 with tool calling), reducing processing time from 20+ seconds to $<$10 seconds across 30+ IRS form types",
+        "Designed two-stage extraction combining AWS Textract OCR with Claude tool calling, achieving 95%+ accuracy through confidence scoring and validation",
+        "Implemented event-driven microservices using AWS SQS, Lambda, and API Gateway to process Stripe and Veriff webhooks, achieving 100% delivery rate across 200+ alpha test transactions",
         "Developed multi-modal RAG chatbot using Bedrock and S3 Vectors with encrypted storage, PII removal, and safety guardrails, reducing Intercom support tickets by 78%",
         "Deployed 4 production services on ECS/Fargate with ALB, implementing Infrastructure-as-Code via CDK and CI/CD pipelines across dev/test/prod environments",
-        "Built schema mapping tool enabling accountants to map 50+ IRS form fields to Intuit Lacerte input codes, streamlining B2B document-to-software workflow"
+        "Built schema mapping tool enabling accountants to map 50+ IRS form fields to Intuit Lacerte input codes, streamlining B2B document-to-software workflow",
       ],
     },
     {
@@ -184,7 +184,7 @@ export const navItems = [
       iconBg: "#fff",
       date: "December 2024 - April 2025",
       points: [
-        "Orchestrated migration from Digital Ocean to serverless AWS, reducing monthly hosting costs from $40 to <$2", 
+        "Migrated from Digital Ocean to serverless AWS with DynamoDB, reducing monthly hosting costs from $40 to <$2", 
         "Deployed 1100+ game images to S3 with CloudFront CDN, reducing global load times from 3s to 400ms", 
         "Built authenticated React admin dashboard with REST API for game CRUD operations, eliminating manual spreadsheet workflow"
       ],
