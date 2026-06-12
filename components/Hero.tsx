@@ -40,9 +40,9 @@ const Hero = () => {
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
             A Full Stack Software Engineer specializing in AI and Cloud
           </p>
-          <h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
+          {/* <h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
             From Boston, MA
-          </h2>
+          </h2> */}
           <a href="#projects">
             <MagicButton
               title="View my projects"

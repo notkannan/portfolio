@@ -39,7 +39,7 @@ export const navItems = [
     },
     {
       id: 4,
-      title: "Graduating in May 2026",
+      title: "Graduated in May 2026",
       description: "Life Lately",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
@@ -60,7 +60,7 @@ export const navItems = [
     },
     {
       id: 6,
-      title: "I'd love to collaborate, hit me up!",
+      title: "Up for collaborations :)",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
@@ -152,6 +152,7 @@ export const navItems = [
 
   export const flipWordsContent = [
     'Next.js',
+    'React',
     'JavaScript',
     'TypeScript', 
     'Python', 
@@ -169,9 +170,9 @@ export const navItems = [
       iconBg: "#fff",
       date: "May 2025 - December 2025",
       points: [
-        "Built distributed document processing pipeline using AWS Step Functions, Lambda, and Bedrock (Claude Sonnet 4.5 with tool calling), reducing processing time from 20+ seconds to $<$10 seconds across 30+ IRS form types",
+        "Built distributed document processing system using AWS Step Functions, Lambda, and Bedrock, reducing processing time from 20+ seconds to <10 seconds across 30+ IRS form types",
         "Designed two-stage extraction combining AWS Textract OCR with Claude tool calling, achieving 95%+ accuracy through confidence scoring and validation",
-        "Implemented event-driven microservices using AWS SQS, Lambda, and API Gateway to process Stripe and Veriff webhooks, achieving 100% delivery rate across 200+ alpha test transactions",
+        "Implemented idempotent event-driven webhook processing via SQS and Lambda with dead-letter queues and CloudWatch alerting, achieving zero missed transactions across all alpha test traffic",
         "Developed multi-modal RAG chatbot using Bedrock and S3 Vectors with encrypted storage, PII removal, and safety guardrails, reducing Intercom support tickets by 78%",
         "Deployed 4 production services on ECS/Fargate with ALB, implementing Infrastructure-as-Code via CDK and CI/CD pipelines across dev/test/prod environments",
         "Built schema mapping tool enabling accountants to map 50+ IRS form fields to Intuit Lacerte input codes, streamlining B2B document-to-software workflow",
@@ -184,9 +185,9 @@ export const navItems = [
       iconBg: "#fff",
       date: "December 2024 - April 2025",
       points: [
-        "Migrated from Digital Ocean to serverless AWS with DynamoDB, reducing monthly hosting costs from $40 to <$2", 
-        "Deployed 1100+ game images to S3 with CloudFront CDN, reducing global load times from 3s to 400ms", 
-        "Built authenticated React admin dashboard with REST API for game CRUD operations, eliminating manual spreadsheet workflow"
+        "Rewrote legacy backend from scratch on a fully serverless AWS stack (Lambda, API Gateway, DynamoDB), eliminating prior architecture’s scalability bottlenecks",
+        "Built JWT-based auth system from zero using bcrypt and Lambda, enforcing 8-hour session expiry, secure credential hashing, and atomic DynamoDB account provisioning",
+        "Deployed 1100+ images to S3 with CloudFront CDN, reducing global load times from 3s to 400ms"
       ],
     },
     {
@@ -197,7 +198,7 @@ export const navItems = [
       date: "January 2024 - May 2026",
       points: [
         "GPA: 3.8",
-        "Semester I: Concepts of Object Oriented Design, Web Development and User Experience Engineering",
+        "Semester I: Objected Oriented Programming, Web Development and User Experience Engineering",
         "Semester II: Network Structures and Cloud Computing, User Experience Design/Testing",
         "Semester III: Enterprise Software Design, Data Structures and Algorithms",
         "Semester IV: Software Design Patterns, Business Analytics and Information Engineering",
@@ -210,9 +211,9 @@ export const navItems = [
       iconBg: "#fff",
       date: "November 2021 - March 2023",
       points: [
-        "Developed custom React/TypeScript components and JavaScript form scripts for Microsoft Dynamics 365, implementing client-specific business logic, and UI customizations across 10+ production deployments", 
-        "Resolved production issues in Dynamics 365 applications, analyzing component state, API interactions, and async workflows to identify root causes and deploy fixes under SLA constraints", 
-        "Built event-driven integrations using Power Apps and Azure Functions to automate engagement workflows, reducing manual intervention and improving operational reliability"
+        "Built 8+ reusable React/TypeScript components for Dynamics 365, reducing per-client front-end configuration time by 30% across 10+ production deployments",
+        "Resolved 15+ production incidents in Dynamics 365 under SLA constraints, cutting average resolution time from 4 hours to under 90 minutes by standardizing a root-cause debugging playbook for async workflow failures",
+        "Automated client engagement workflows via Power Apps and Azure Functions, eliminating 6+ hrs/week of manual data entry and reducing QA-flagged errors by 60%"
       ],
     },
   ];
